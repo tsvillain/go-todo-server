@@ -15,7 +15,9 @@ But you can check `api-collection.json` 😶
     `git clone https://github.com/tsvillain/go-todo-server.git`
 
 - Run:
-
+    
+    `go mod tidy` // Get's all dependencies
+    
     `go run .`
 
         Server will be up and running on localhost:3000

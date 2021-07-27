@@ -1,0 +1,157 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Go-Todo-Server",
+    "dateExported": "2021-07-27T08:42:48.195Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "getAllTodos",
+            "url": "{{local}}",
+            "method": "GET",
+            "modified": "2021-07-27T07:32:31.298Z",
+            "created": "2021-07-27T05:09:21.216Z",
+            "_id": "a950065b-fb36-43a0-84c5-5eaeec4921a4",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "getAllTodoOfUser",
+            "url": "{{local}}/tsvillain",
+            "method": "GET",
+            "modified": "2021-07-27T07:32:39.464Z",
+            "created": "2021-07-27T05:10:34.108Z",
+            "_id": "802ad776-d0ac-4f30-9c9f-4e5dcc4c5582",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "addTodo",
+            "url": "{{local}}/todo",
+            "method": "POST",
+            "modified": "2021-07-27T08:38:59.531Z",
+            "created": "2021-07-27T06:09:04.928Z",
+            "_id": "bd23efd7-ecb2-4bf4-bdbf-798cafa46f96",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\n    \"id\": 1,\n    \"task\": \"I am Gud 1\",\n    \"status\": false,\n    \"username\": \"tsvillain\",\n    \"priority\": 2\n  }\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "updateTodo",
+            "url": "{{local}}/todo",
+            "method": "PUT",
+            "modified": "2021-07-27T08:39:31.780Z",
+            "created": "2021-07-27T07:11:09.005Z",
+            "_id": "58796096-af89-403e-8244-17a8865012d3",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 2,\n  \"task\": \"I am Good\",\n  \"username\": \"tsvillain\",\n  \"priority\": 3,\n  \"status\": false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "getTodoById",
+            "url": "{{local}}/todo/0",
+            "method": "GET",
+            "modified": "2021-07-27T07:32:51.538Z",
+            "created": "2021-07-27T05:11:14.909Z",
+            "_id": "b517e86a-6bc5-4a0d-be05-c4daa5eb2954",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "",
+            "sortNum": 40000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.io)"
+                }
+            ],
+            "colId": "6ab3fa58-f1f1-4d97-921e-cfa316040332",
+            "name": "deleteTodoById",
+            "url": "{{local}}/todo/3/tsvillain",
+            "method": "DELETE",
+            "modified": "2021-07-27T08:39:46.494Z",
+            "created": "2021-07-27T05:11:40.055Z",
+            "_id": "5de0281c-fa41-4e1f-a054-ccdb6ac85bc1",
+            "params": [],
+            "tests": []
+        }
+    ]
+}
